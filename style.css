@@ -8,11 +8,53 @@ body {
     margin     : 0 10% 0 10%;
 }
 
+/* Navbar starts */
+
+#nav-body {
+    margin-top: 30px;
+    width     : 100%;
+    height    : 50px;
+    display   : flex;
+}
+
+#nav-head {
+    display    : block;
+    font-weight: 700;
+    font-size  : 24px;
+    margin-top : 9px;
+}
+
+.nav-bar {
+    width          : 80%;
+    float          : right;
+    list-style-type: none;
+    margin-left    : 50%;
+    padding        : 0;
+    overflow       : hidden;
+}
+
+.nav-bar li {
+    float      : right;
+    margin-left: 25px;
+}
+
+.nav-bar a {
+    font-weight    : 500;
+    display        : block;
+    color          : black;
+    text-align     : center;
+    padding-top    : 14px;
+    padding-bottom : 16px;
+    text-decoration: none;
+}
+
+/* Navbar ends */
+
 /* Header starts */
 
 .intro {
-    width       : 45%;
-    padding-left: 10%;
+    width        : 45%;
+    padding-left : 10%;
     margin-bottom: 10%;
 }
 
@@ -23,7 +65,7 @@ body {
 }
 
 .intro-text-span {
-    background: -webkit-linear-gradient(#14BAFC,#0389F7);
+    background             : -webkit-linear-gradient(#14BAFC, #0389F7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -50,6 +92,7 @@ body {
 
 .link-btn {
     font-size       : 12px;
+    text-transform: uppercase;
     font-weight     : bold;
     color           : white;
     text-decoration : none;
@@ -89,7 +132,7 @@ body {
 }
 
 .about-text-body h3 {
-    color      : rgba(0, 0, 0, 0.4);
+    color      : rgba(0, 0, 0, 0.6);
     font-size  : 32px;
     padding-top: 30px;
 }
@@ -113,7 +156,7 @@ body {
 }
 
 #recipe-head {
-    color: rgba(0, 0, 0, 0.6);
+    color     : rgba(0, 0, 0, 0.6);
     text-align: center;
     margin-top: 60px;
     font-size : 28px;
@@ -144,7 +187,7 @@ p {
 
 .recipe-img {
     border-radius: 15px;
-    width        : 250px;
+    width        : 240px;
     height       : 180px;
 }
 
@@ -160,7 +203,7 @@ p {
 }
 
 .view-card-body {
-    width          : 50%;
+    width          : 80%;
     height         : 160px;
     display        : flex;
     justify-content: center;
@@ -181,6 +224,52 @@ p {
 
 /* Views ends */
 
+/* Feedback starts */
+
+#feedback-title {
+    margin-top   : 150px;
+    margin-bottom: 100px;
+}
+
+#feedback-body {
+    width  : 80%;
+    height : 400px;
+    display: inline-block;
+}
+
+#feedback-item {
+    display: flex;
+}
+
+.feedback-item-div {
+    width        : 50%;
+    height       : 400px;
+    border-radius: 15px;
+    box-shadow   : 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-img {
+    width        : 50%;
+    height       : 40%;
+    padding      : 20px;
+    border-radius: 50%;
+}
+
+.feedback-item-div-title {
+    font-size  : 18px;
+    font-weight: 700;
+    text-align : center;
+}
+
+.feedback-item-div-details {
+    display      : inline-block;
+    text-align   : center;
+    font-style   : italic;
+    margin: 0 30px 20px 30px;
+}
+
+/* Feedback ends */
+
 /* Footer starts */
 
 #footer {
@@ -188,7 +277,6 @@ p {
     width           : 100%;
     height          : 150px;
     margin          : 80px 5% 0 0%;
-    padding-top     : 2%;
     text-transform  : uppercase;
 }
 
@@ -199,7 +287,7 @@ p {
 #footer div h2 {
     font-size    : 22px;
     font-weight  : 600;
-    color        : rgba(255, 255, 255, 0.3);
+    color        : rgba(255, 255, 255, 0.6);
     margin-bottom: 30px;
 }
 
