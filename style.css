@@ -59,6 +59,7 @@ body {
 }
 
 .intro-text {
+    color : rgba(0, 0, 0, 0.7);
     text-transform: capitalize;
     margin-top    : 5em;
     font-size     : 2.625em;
@@ -92,7 +93,7 @@ body {
 
 .link-btn {
     font-size       : 0.75em;
-    text-transform: uppercase;
+    text-transform  : uppercase;
     font-weight     : bold;
     color           : white;
     text-decoration : none;
@@ -217,9 +218,10 @@ p {
 }
 
 .view-card {
-    width      : fit-content;
-    line-height: 0.5;
-    text-align : left;
+    width        : fit-content;
+    margin-bottom: 1.25em;
+    line-height  : 0.5;
+    text-align   : left;
 }
 
 /* Views ends */
@@ -227,7 +229,8 @@ p {
 /* Feedback starts */
 
 #feedback-title {
-    margin-top   : 9.375em;
+    color        : rgba(0, 0, 0, 0.6);
+    margin-top   : 7.5em;
     margin-bottom: 6.25em;
 }
 
@@ -262,10 +265,10 @@ p {
 }
 
 .feedback-item-div-details {
-    display      : inline-block;
-    text-align   : center;
-    font-style   : italic;
-    margin: 0 1.875em 1.25em 1.875em;
+    display   : inline-block;
+    text-align: center;
+    font-style: italic;
+    margin    : 0 1.875em 1.25em 1.875em;
 }
 
 /* Feedback ends */
